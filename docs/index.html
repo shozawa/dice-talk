@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet"  href="./style.css">
+    </head>
+    <body>
+        <section class="hero is-info">
+            <div class="hero-body">
+                <p class="title is-4">サイコロトーク</p>
+                <p>『ごきげんよう』のサイコロトークのように、ランダムにお題を選んでトークが楽しめます。お題は変更もできます。</p>
+            </div>
+        </section>
+        <div class="container">
+            <section class="content">
+            </section>
+            <section class="hero">
+                <div class="hero-body">
+                    <p class="subtitle">お題</p>
+                    <p id="result" class="title">ありえない話</p>
+                </div>
+            </section>
+            <form id="roll">
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-info is-fullwidth" type="submit">次のお題</button>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="ありえない話" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="恥ずかしい話" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="私、こってます" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="ドヒャー！" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="感謝した話" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input surface" type="text" value="最近、どう？" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <script src="./index.js" defer></script>
+    </body>
+</html>
